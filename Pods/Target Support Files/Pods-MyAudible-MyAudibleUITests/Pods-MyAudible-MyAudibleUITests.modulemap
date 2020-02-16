@@ -1,0 +1,6 @@
+framework module Pods_MyAudible_MyAudibleUITests {
+  umbrella header "Pods-MyAudible-MyAudibleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

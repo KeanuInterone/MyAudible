@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,12 @@
 		5EDFF1A423F4D5320024DBA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFF1A223F4D5320024DBA1 /* LaunchScreen.storyboard */; };
 		5EDFF1AF23F4D5330024DBA1 /* MyAudibleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFF1AE23F4D5330024DBA1 /* MyAudibleTests.swift */; };
 		5EDFF1BA23F4D5330024DBA1 /* MyAudibleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFF1B923F4D5330024DBA1 /* MyAudibleUITests.swift */; };
+		5EDFF1C823F9C5390024DBA1 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFF1C723F9C5390024DBA1 /* CourseView.swift */; };
+		5EDFF1CA23F9D0D70024DBA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EDFF1C923F9D0D70024DBA1 /* GoogleService-Info.plist */; };
+		5EDFF1CC23F9DFDE0024DBA1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDFF1CB23F9DFDE0024DBA1 /* LoginView.swift */; };
+		842761C6483FE22E3DF37BAF /* Pods_MyAudible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3791E72E2D8CC9BC68DCB0E4 /* Pods_MyAudible.framework */; };
+		939A96E9E1CFA73D1F44A2E7 /* Pods_MyAudibleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42FA2E46BA41A299B6E92C2 /* Pods_MyAudibleTests.framework */; };
+		C4B0E9DD6DF149AB7381B2E3 /* Pods_MyAudible_MyAudibleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15082D08F7DDE41A6037889F /* Pods_MyAudible_MyAudibleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12245760D96BA969CBE408C8 /* Pods-MyAudible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudible.release.xcconfig"; path = "Target Support Files/Pods-MyAudible/Pods-MyAudible.release.xcconfig"; sourceTree = "<group>"; };
+		15082D08F7DDE41A6037889F /* Pods_MyAudible_MyAudibleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAudible_MyAudibleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEC1133930A967E7FE3F348 /* Pods-MyAudible-MyAudibleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudible-MyAudibleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MyAudible-MyAudibleUITests/Pods-MyAudible-MyAudibleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3791E72E2D8CC9BC68DCB0E4 /* Pods_MyAudible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAudible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDFF19123F4D52F0024DBA1 /* MyAudible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAudible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDFF19423F4D52F0024DBA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EDFF19623F4D52F0024DBA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,14 @@
 		5EDFF1B523F4D5330024DBA1 /* MyAudibleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAudibleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EDFF1B923F4D5330024DBA1 /* MyAudibleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAudibleUITests.swift; sourceTree = "<group>"; };
 		5EDFF1BB23F4D5330024DBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EDFF1C723F9C5390024DBA1 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		5EDFF1C923F9D0D70024DBA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5EDFF1CB23F9DFDE0024DBA1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		64E6AD48EBD39ED6B4C9648B /* Pods-MyAudible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudible.debug.xcconfig"; path = "Target Support Files/Pods-MyAudible/Pods-MyAudible.debug.xcconfig"; sourceTree = "<group>"; };
+		766087D11619E654A920B88C /* Pods-MyAudibleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudibleTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAudibleTests/Pods-MyAudibleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B42FA2E46BA41A299B6E92C2 /* Pods_MyAudibleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAudibleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E11D477E1B9ADFEA2E2E54 /* Pods-MyAudibleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudibleTests.release.xcconfig"; path = "Target Support Files/Pods-MyAudibleTests/Pods-MyAudibleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F23BF427AB0365FFA7AD1EC5 /* Pods-MyAudible-MyAudibleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAudible-MyAudibleUITests.release.xcconfig"; path = "Target Support Files/Pods-MyAudible-MyAudibleUITests/Pods-MyAudible-MyAudibleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842761C6483FE22E3DF37BAF /* Pods_MyAudible.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				939A96E9E1CFA73D1F44A2E7 /* Pods_MyAudibleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B0E9DD6DF149AB7381B2E3 /* Pods_MyAudible_MyAudibleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				5EDFF1AD23F4D5330024DBA1 /* MyAudibleTests */,
 				5EDFF1B823F4D5330024DBA1 /* MyAudibleUITests */,
 				5EDFF19223F4D52F0024DBA1 /* Products */,
+				9EAB755CA01131DEC93AFA1C /* Pods */,
+				AE3CC16B2CF396C65CD89191 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +126,13 @@
 			children = (
 				5EDFF19423F4D52F0024DBA1 /* AppDelegate.swift */,
 				5EDFF19623F4D52F0024DBA1 /* SceneDelegate.swift */,
+				5EDFF1CB23F9DFDE0024DBA1 /* LoginView.swift */,
+				5EDFF1C723F9C5390024DBA1 /* CourseView.swift */,
 				5EDFF19B23F4D52F0024DBA1 /* ContentView.swift */,
 				5EDFF19D23F4D5320024DBA1 /* Assets.xcassets */,
 				5EDFF1A223F4D5320024DBA1 /* LaunchScreen.storyboard */,
 				5EDFF1A523F4D5320024DBA1 /* Info.plist */,
+				5EDFF1C923F9D0D70024DBA1 /* GoogleService-Info.plist */,
 				5EDFF19823F4D52F0024DBA1 /* MyAudible.xcdatamodeld */,
 				5EDFF19F23F4D5320024DBA1 /* Preview Content */,
 			);
@@ -139,6 +165,29 @@
 			path = MyAudibleUITests;
 			sourceTree = "<group>";
 		};
+		9EAB755CA01131DEC93AFA1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64E6AD48EBD39ED6B4C9648B /* Pods-MyAudible.debug.xcconfig */,
+				12245760D96BA969CBE408C8 /* Pods-MyAudible.release.xcconfig */,
+				1AEC1133930A967E7FE3F348 /* Pods-MyAudible-MyAudibleUITests.debug.xcconfig */,
+				F23BF427AB0365FFA7AD1EC5 /* Pods-MyAudible-MyAudibleUITests.release.xcconfig */,
+				766087D11619E654A920B88C /* Pods-MyAudibleTests.debug.xcconfig */,
+				D9E11D477E1B9ADFEA2E2E54 /* Pods-MyAudibleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE3CC16B2CF396C65CD89191 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3791E72E2D8CC9BC68DCB0E4 /* Pods_MyAudible.framework */,
+				15082D08F7DDE41A6037889F /* Pods_MyAudible_MyAudibleUITests.framework */,
+				B42FA2E46BA41A299B6E92C2 /* Pods_MyAudibleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDFF1BE23F4D5330024DBA1 /* Build configuration list for PBXNativeTarget "MyAudible" */;
 			buildPhases = (
+				13195554A9BDB20990647BAA /* [CP] Check Pods Manifest.lock */,
 				5EDFF18D23F4D52F0024DBA1 /* Sources */,
 				5EDFF18E23F4D52F0024DBA1 /* Frameworks */,
 				5EDFF18F23F4D52F0024DBA1 /* Resources */,
+				BD9ED860474AFA0A44925552 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDFF1C123F4D5330024DBA1 /* Build configuration list for PBXNativeTarget "MyAudibleTests" */;
 			buildPhases = (
+				9832C97C2DA92F1226CCABE1 /* [CP] Check Pods Manifest.lock */,
 				5EDFF1A623F4D5330024DBA1 /* Sources */,
 				5EDFF1A723F4D5330024DBA1 /* Frameworks */,
 				5EDFF1A823F4D5330024DBA1 /* Resources */,
@@ -181,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EDFF1C423F4D5330024DBA1 /* Build configuration list for PBXNativeTarget "MyAudibleUITests" */;
 			buildPhases = (
+				BFF9329A9DC0A47FFF7F11D3 /* [CP] Check Pods Manifest.lock */,
 				5EDFF1B123F4D5330024DBA1 /* Sources */,
 				5EDFF1B223F4D5330024DBA1 /* Frameworks */,
 				5EDFF1B323F4D5330024DBA1 /* Resources */,
+				9FF5E256DC478FE000F7C668 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +300,7 @@
 				5EDFF1A423F4D5320024DBA1 /* LaunchScreen.storyboard in Resources */,
 				5EDFF1A123F4D5320024DBA1 /* Preview Assets.xcassets in Resources */,
 				5EDFF19E23F4D5320024DBA1 /* Assets.xcassets in Resources */,
+				5EDFF1CA23F9D0D70024DBA1 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +320,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13195554A9BDB20990647BAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAudible-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9832C97C2DA92F1226CCABE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAudibleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FF5E256DC478FE000F7C668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAudible-MyAudibleUITests/Pods-MyAudible-MyAudibleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAudible-MyAudibleUITests/Pods-MyAudible-MyAudibleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAudible-MyAudibleUITests/Pods-MyAudible-MyAudibleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD9ED860474AFA0A44925552 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAudible/Pods-MyAudible-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAudible/Pods-MyAudible-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAudible/Pods-MyAudible-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF9329A9DC0A47FFF7F11D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAudible-MyAudibleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5EDFF18D23F4D52F0024DBA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EDFF1CC23F9DFDE0024DBA1 /* LoginView.swift in Sources */,
 				5EDFF19523F4D52F0024DBA1 /* AppDelegate.swift in Sources */,
 				5EDFF19A23F4D52F0024DBA1 /* MyAudible.xcdatamodeld in Sources */,
+				5EDFF1C823F9C5390024DBA1 /* CourseView.swift in Sources */,
 				5EDFF19C23F4D52F0024DBA1 /* ContentView.swift in Sources */,
 				5EDFF19723F4D52F0024DBA1 /* SceneDelegate.swift in Sources */,
 			);
@@ -436,6 +596,7 @@
 		};
 		5EDFF1BF23F4D5330024DBA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E6AD48EBD39ED6B4C9648B /* Pods-MyAudible.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +617,7 @@
 		};
 		5EDFF1C023F4D5330024DBA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12245760D96BA969CBE408C8 /* Pods-MyAudible.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -476,6 +638,7 @@
 		};
 		5EDFF1C223F4D5330024DBA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766087D11619E654A920B88C /* Pods-MyAudibleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +661,7 @@
 		};
 		5EDFF1C323F4D5330024DBA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E11D477E1B9ADFEA2E2E54 /* Pods-MyAudibleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -520,6 +684,7 @@
 		};
 		5EDFF1C523F4D5330024DBA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEC1133930A967E7FE3F348 /* Pods-MyAudible-MyAudibleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +705,7 @@
 		};
 		5EDFF1C623F4D5330024DBA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F23BF427AB0365FFA7AD1EC5 /* Pods-MyAudible-MyAudibleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
